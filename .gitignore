@@ -1,6 +1,4 @@
-venv/
-__pycache__/
-*.pyc
-.env
-.vscode/
-*.csv
+data/*.csv
+!data/expected_returns.csv
+!data/cov_matrix.csv
+!data/combined_prices.csv
